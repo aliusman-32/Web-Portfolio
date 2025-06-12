@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/output/output.css">
+    <script src="/public/project.js" defer></script>
+    
+
+</head>
+<body class="animated-gradient min-h-screen">
+    <div class="flex items-center ">
+  <!-- Left-aligned title -->
+  <h3 class="ml-20 flex-shrink-0 text-xl font-semibold  text-white">Personal Portfolio</h3>
+
+  <!-- Centered navigation bar -->
+  <div class="bg-[#4F6DF5]/89  flex flex-grow justify-evenly gap-8  w-200 rounded-br-[60px] rounded-bl-[60px] ml-20 mr-60 h-20 text-white">
+    <!-- Home -->
+    <a href="/public/index.html" class="flex flex-col items-center w-16">
+      <img src="/Assets/home_icon.png" alt="Home" class="h-10 w-10 mb-1 object-contain">
+      <span class="text-xs text-center">Home</span>
+    </a>
+    
+    <!-- About Me -->
+    <a href="/public/AboutMe.html" class="flex flex-col items-center w-16">
+      <img src="/Assets/person.png" alt="About" class="h-10 w-10 mb-1 object-contain">
+      <span class="text-xs text-center">About Me</span>
+    </a>
+    
+    <!-- Projects & Skills -->
+    <a href="/public/project&skills.html" class="flex flex-col items-center w-16">
+      <img src="/Assets/project.png" alt="Projects" class="h-10 w-10 mb-1 object-contain">
+      <span class="text-xs text-center">Projects & Skills</span>
+    </a>
+    
+    <!-- Certificates -->
+    <a href="/public/certificates.html" class="flex flex-col items-center w-16">
+      <img src="/Assets/certificate.png" alt="Certificates" class="h-10 w-10 mb-1 object-contain">
+      <span class="text-xs text-center">Certificates</span>
+    </a>
+    
+    <!-- Contacts -->
+    <a href="/public/contact.html" class="flex flex-col items-center w-16">
+      <img src="/Assets/phone_icon.png" alt="Contacts" class="h-10 w-10 mb-1 object-contain">
+      <span class="text-xs text-center">Contacts</span>
+    </a>
+  </div>
+</div>
+
+    <div class="mx-30 my-20 flex h-120">
+        <div class="bg-[#062BFF]/73 w-3/10 flex flex-col p-6 items-center">
+          <div class="rounded-full border-3 border-white w-32 h-32 mt-5 overflow-hidden">
+            <img src="/Assets/profile.jpg" alt="" class="w-full h-full object-cover object-center">
+          </div>
+          <h4 class="text-white mt-5">Ali Usman</h4>
+
+
+          <div class="flex space-x-4 mt-6">
+            <a href="https://leetcode.com/u/aliusman_32/">
+              <img src="/Assets/leetcode_icon.png" alt="">
+            </a>
+            <a href="https://github.com/aliusman-32"><img src="/Assets/github_icon.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/aliusman32"><img src="/Assets/linkedin_icon.png" alt=""></a>
+          </div>
+          <button class="text-black bg-gray-200 rounded-[60px] py-2 w-30 my-5 ">
+            Download CV
+          </button>
+
+        </div>
+        <div class="bg-[#C3F8FD]/18 w-7/10   flex flex-col">
+            <h1 class="text-center text-blue-600 text-3xl font-bold mb-8">Project</h1>
+            <div class="justify-center mx-10">
+                <li>Tick Tac Toe</li>
+                <li>Face Detection</li>
+                <li>Weather Forecasting</li>
+                <li>Personal Portfolio</li>
+            </div>
+            <h1 class="text-center text-blue-600 text-3xl font-bold mb-8">Skills</h1>
+            <div class="flex justify-center space-x-4">
+                <div class="relative w-32 h-32 " data-percent="75">
+                    <svg class="w-full h-full" viewBox="0 0 120 120" >
+                        <circle cx="60" cy="60" r="50" class="stroke-gray-200 fill-none" stroke-width="13">
+                        </circle>
+                        <circle cx="60" cy="60" r="50" class="progress-ring stroke-blue-500 fill-none" stroke-width="13" stroke-dasharray="314" stroke-dashoffset="314">
+                        </circle>
+                    </svg>
+                    <div class="absolute inset-0 flex items-center justify-center text-sm font-bold text-gray-800">
+                        Java <span class="percent-text">75</span>%
+                    </div>
+                </div>
+                <div class="relative w-32 h-32 " data-percent="90">
+                    <svg class="w-full h-full" viewBox="0 0 120 120" >
+                        <circle cx="60" cy="60" r="50" class="stroke-gray-200 fill-none " stroke-width="13">
+                        </circle>
+                        <circle cx="60" cy="60" r="50" class="progress-ring stroke-blue-500 fill-none" stroke-width="13" stroke-dasharray="314" stroke-dashoffset="314">
+                        </circle>
+                    </svg>
+                    <div class="absolute inset-0 flex items-center justify-center text-sm font-bold text-gray-800">
+                        Python <span class="percent-text">90</span>%
+                    </div>
+                </div>
+                <div class="relative w-32 h-32 " data-percent="95">
+                    <svg class="w-full h-full" viewBox="0 0 120 120" >
+                        <circle cx="60" cy="60" r="50" class="stroke-gray-200 fill-none " stroke-width="13">
+                        </circle>
+                        <circle cx="60" cy="60" r="50" class="progress-ring stroke-blue-500 fill-none" stroke-width="13" stroke-dasharray="314" stroke-dashoffset="314">
+                        </circle>
+                    </svg>
+                    <div class="absolute inset-0 flex items-center justify-center text-sm font-bold text-gray-800">
+                        C++ <span class="percent-text"> 95</span>%
+                    </div>
+                </div>
+                <div class="relative w-32 h-32 " data-percent="80">
+                    <svg class="w-full h-full" viewBox="0 0 120 120" >
+                        <circle cx="60" cy="60" r="50" class="stroke-gray-200 fill-none " stroke-width="13">
+                        </circle>
+                        <circle cx="60" cy="60" r="50" class="progress-ring stroke-blue-500 fill-none" stroke-width="13" stroke-dasharray="314" stroke-dashoffset="314">
+                        </circle>
+                    </svg>
+                    <div class="absolute inset-0 flex items-center justify-center text-sm font-bold text-gray-800">
+                        SQL <span class="percent-text"> 80</span>%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
