@@ -1,0 +1,10 @@
+Photo 			|                   | 
+name                    |                   | 
+                        |                   |
+HOME                    |                   | 
+ABOUT ME                |                   |
+Skills & Projects       |  (download cv)    |
+Certificates            |                   |
+Services                |                   |
+Contacts                |                   |
+       

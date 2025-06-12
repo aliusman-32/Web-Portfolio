@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient{
+  background: linear-gradient(135deg, #0B9198, #12F2FE, #A0E9FF, #0B9198);
+  background-size: 300% 300%;
+  
+  opacity: 0.9;
+
+  animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes blink {
+  0%, 100% { border-color: black; }
+  50% { border-color: transparent; }
+}
+
+#typingtext.typing {
+  border-right: 2px solid black;
+  display: inline;
+  animation: blink 0.7s step-end infinite;
+}
+#typingtext.completed {
+  border-right: none;
+  animation: none;
+}
